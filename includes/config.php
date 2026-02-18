@@ -6,8 +6,7 @@
 
 // Zhipu AI API Key
 // Get your API key from: https://open.bigmodel.cn/
-// Define your API key here (or use environment variable)
-define('ZHIPUAI_API_KEY', '');
+// Define your API key here (or use environment variable
 
 // Alternative: Use Replicate for better VTON results
 // Get your API token from: https://replicate.com/
