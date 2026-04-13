@@ -49,3 +49,21 @@ CREATE TABLE IF NOT EXISTS order_items (
     quantity INT,
     price DECIMAL(10,2)
 );
+
+ALTER TABLE products ADD image VARCHAR(255);
+
+UPDATE products 
+SET image = 'uploads/products/hoodie.avif' 
+WHERE id = 1;
+
+UPDATE products 
+SET image = 'uploads/products/T-shirt.webp' 
+WHERE id = 2;
+
+UPDATE products 
+SET image = 'uploads/products/jacket.webp' 
+WHERE id = 3;
+
+UPDATE products 
+SET image = 'uploads/products/adminBlock.jpg' 
+WHERE id = 4;

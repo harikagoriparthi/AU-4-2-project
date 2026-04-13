@@ -25,8 +25,8 @@ include 'includes/header.php';
 
 <div class="pdp-grid">
     <!-- FIXED: img_bg -> image_bg_color, img_text -> image_text -->
-    <div class="pdp-images" style="background: <?php echo $item['image_bg_color']; ?>; color: #fff;">
-        <h1 style="font-size: 3rem; opacity: 0.5;"><?php echo $item['image_text']; ?></h1>
+    <div class="pdp-images">
+        <img src="<?php echo !empty($item['image']) ? str_replace('\\', '/', $item['image']) : 'uploads/products/default.jpg'; ?>" onerror="this.src='uploads/products/default.jpg';"alt="">
     </div>
 
     <div class="pdp-info">

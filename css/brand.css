@@ -152,6 +152,47 @@ h1, h2, h3 { font-family: var(--font-varsity); text-transform: uppercase; line-h
 .navbar .glitch::before, .navbar .glitch::after { background: var(--off-white); }
 .modal-content .glitch::before, .modal-content .glitch::after { background: var(--au-blue); color: var(--au-gold); }
 
+.card-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pdp-images {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+.pdp-images img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.card-img {
+    width: 100% !important;
+    height: 220px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #f5f5f5 !important;
+    overflow: hidden !important;
+}
+
+.card-img img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+}
 @keyframes glitch-anim-1 {
     0% { clip-path: inset(20% 0 80% 0); } 20% { clip-path: inset(60% 0 10% 0); }
     40% { clip-path: inset(40% 0 50% 0); } 60% { clip-path: inset(80% 0 5% 0); }
@@ -165,3 +206,28 @@ h1, h2, h3 { font-family: var(--font-varsity); text-transform: uppercase; line-h
 
 @media(max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } .nav-links { display: none; } }
 @media(max-width: 500px) { .cart-drawer { width: 100%; } }
+
+/* ===== CLEAN IMAGE SYSTEM (FINAL) ===== */
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* DEBUG (temporary) */
+.card-img {
+    border: 2px solid black;
+}

@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db_name = 'au_heritage';
 $username = 'root'; // Default XAMPP username
-$password = 'joel'; // Default XAMPP password is empty
+$password = ''; // Default XAMPP password is empty
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);

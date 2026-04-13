@@ -53,7 +53,9 @@ include 'includes/header.php';
         <!-- Static Preview Items -->
         <div class="product-card">
             <span class="badge">POPULAR</span>
-            <div class="card-img" style="background: #222; color: #fff;">[HOODIE MOCKUP]</div>
+            <div class="card-img">
+                 <img src="uploads/products/hoodie.avif" alt="Hoodie">
+            </div>           
             <div>
                 <h3 style="font-size: 1.5rem;">Senate House '26</h3>
                 <div style="display: flex; justify-content: space-between; margin-top: 10px; font-family: var(--font-tech);">
@@ -62,7 +64,9 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="product-card">
-            <div class="card-img" style="background: #f4f4f4; color: #000;">[TOTE BAG MOCKUP]</div>
+            <div class="card-img">
+                <img src="uploads/products/T-shirt.webp" alt="Hoodie">
+            </div>
             <div>
                 <h3 style="font-size: 1.5rem;">Heritage Canvas</h3>
                 <div style="display: flex; justify-content: space-between; margin-top: 10px; font-family: var(--font-tech);">
